@@ -1,4 +1,4 @@
-use akash;
+use akash;      #database
 
 #creating employee table and adding columns
 create table emp(
@@ -28,10 +28,10 @@ insert into dept values
 (4,'Jr. engineer',130000),
 (5,'Jr. engineer',140000);
 
-#displaying department table
+#displaying employee table
 select * from emp;
 
-#displaying employee table
+#displaying department table
 select * from dept;
 
 
