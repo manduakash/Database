@@ -1,7 +1,5 @@
 use assignment_4;
 
-drop table customer;
-drop table movie;
 
 create table customer(
 cust_id varchar(3) primary key,	#2
